@@ -1,0 +1,277 @@
+[00:27:47.810][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[01:24:13.194][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[01:30:45.764][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[22:16:57.434][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[22:30:11.322][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[22:34:35.008][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[22:49:17.737][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[22:56:05.467][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[23:03:33.694][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[23:11:16.265][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[23:24:20.863][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[23:36:47.416][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[23:36:50.095][ERROR] LionClient bootstrap failed
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at lion.client.Agent.start(Agent.java:104)
+Caused by: java.lang.RuntimeException: No OpenGL context found in the current thread.
+	at org.lwjgl.opengl.GLContext.getCapabilities(GLContext.java:124)
+	at org.lwjgl.opengl.GL11.glGenTextures(GL11.java:1403)
+	at com.lionclient.util.TrueTypeFontRenderer.generateGlyphs(TrueTypeFontRenderer.java:68)
+	at com.lionclient.util.TrueTypeFontRenderer.<init>(TrueTypeFontRenderer.java:25)
+	at com.lionclient.gui.ModernClickGuiScreen.loadBebasFont(ModernClickGuiScreen.java:154)
+	at com.lionclient.gui.ModernClickGuiScreen.<init>(ModernClickGuiScreen.java:159)
+	at com.lionclient.LionClient.<init>(LionClient.java:35)
+	... 5 more
+
+[23:50:40.122][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[23:55:42.987][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[00:22:22.611][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[01:18:34.783][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[15:53:36.915][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[15:59:09.025][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[20:27:38.291][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[22:13:18.097][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[22:35:10.689][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[22:37:50.427][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[22:42:30.294][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[22:45:22.612][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[22:53:04.667][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[23:32:20.066][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[09:50:24.925][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[10:51:31.001][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[10:57:45.274][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[18:34:49.372][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[22:59:58.912][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[23:41:21.136][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[23:47:09.666][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[00:35:05.661][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[00:21:32.637][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[00:30:30.069][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[00:44:40.797][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[17:25:19.498][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[23:07:12.257][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[23:14:57.036][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[23:16:29.820][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[23:34:59.617][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[23:55:18.688][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[23:59:45.272][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[00:14:11.238][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[00:28:24.579][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[00:30:13.006][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[00:52:04.127][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[01:23:28.831][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[13:26:40.679][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[13:28:33.132][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[13:36:16.233][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[13:40:52.105][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[13:59:26.177][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[15:21:44.277][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[15:30:04.027][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[15:38:48.840][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[16:30:21.459][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[22:05:24.374][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[22:44:16.362][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[22:44:16.450][ERROR] LionClient bootstrap failed
+java.lang.NoClassDefFoundError: net/minecraftforge/event/world/WorldEvent$Unload
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Unknown Source)
+	at java.base/java.lang.Class.getMethodsRecursive(Unknown Source)
+	at java.base/java.lang.Class.getMethod0(Unknown Source)
+	at java.base/java.lang.Class.getMethod(Unknown Source)
+	at lion.client.Agent.start(Agent.java:105)
+Caused by: java.lang.ClassNotFoundException: Failed to find class net.minecraftforge.event.world.WorldEvent$Unload
+	at com.moonsworth.lunar.genesis.ROICIOCIIHOOORIIRROCROOROHHRHC.loadClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	... 6 more
+Caused by: java.lang.ClassNotFoundException: IchorPipeline can't find class in Genesis: net.minecraftforge.event.world.WorldEvent$Unload
+	at com.moonsworth.lunar.ichor.IOCIIRORRRHHOICHIROOROCOIHOOOC.IRICROCOOHICCRRRHCIHROCORHORRI(Unknown Source)
+	at com.moonsworth.lunar.ichor.IOCIIRORRRHHOICHIROOROCOIHOOOC.IRICROCOOHICCRRRHCIHROCORHORRI(Unknown Source)
+	at com.moonsworth.lunar.genesis.ROICIOCIIHOOORIIRROCROOROHHRHC.findClass(Unknown Source)
+	at com.moonsworth.lunar.genesis.ROICIOCIIHOOORIIRROCROOROHHRHC.loadClass(Unknown Source)
+	... 7 more
+
+[23:13:37.120][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[23:13:37.327][ERROR] LionClient bootstrap failed
+java.lang.NoClassDefFoundError: net/minecraftforge/event/world/WorldEvent$Unload
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.privateGetMethodRecursive(Class.java:3048)
+	at java.lang.Class.getMethod0(Class.java:3018)
+	at java.lang.Class.getMethod(Class.java:1784)
+	at lion.client.Agent.start(Agent.java:105)
+Caused by: java.lang.ClassNotFoundException: net.minecraftforge.event.world.WorldEvent$Unload
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 6 more
+
+[13:09:58.837][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[13:29:32.243][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[00:48:10.949][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[01:01:16.183][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[01:07:28.166][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[00:17:55.074][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[22:01:06.131][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[22:01:11.680][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[22:46:19.799][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[00:02:27.777][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[00:02:30.470][ERROR] LionClient bootstrap failed
+java.lang.NoClassDefFoundError: net/minecraftforge/fml/common/network/FMLNetworkEvent$ClientDisconnectionFromServerEvent
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Unknown Source)
+	at java.base/java.lang.Class.getMethodsRecursive(Unknown Source)
+	at java.base/java.lang.Class.getMethod0(Unknown Source)
+	at java.base/java.lang.Class.getMethod(Unknown Source)
+	at lion.client.Agent.start(Agent.java:105)
+Caused by: java.lang.ClassNotFoundException: Failed to find class net.minecraftforge.fml.common.network.FMLNetworkEvent$ClientDisconnectionFromServerEvent
+	at com.moonsworth.lunar.genesis.ROHCCHIHOCOIOROCCRORCRRCIRHROH.loadClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	... 6 more
+Caused by: java.lang.ClassNotFoundException: IchorPipeline can't find class in Genesis: net.minecraftforge.fml.common.network.FMLNetworkEvent$ClientDisconnectionFromServerEvent
+	at com.moonsworth.lunar.ichor.COCHICRCCIRHIHRRCHCIOOIOOOHHIH.IIOOIIHRIOCCIHHCIRICHIIHIHOHII(Unknown Source)
+	at com.moonsworth.lunar.ichor.COCHICRCCIRHIHRRCHCIOOIOOOHHIH.IIOOIIHRIOCCIHHCIRICHIIHIHOHII(Unknown Source)
+	at com.moonsworth.lunar.genesis.ROHCCHIHOCOIOROCCRORCRRCIRHROH.findClass(Unknown Source)
+	at com.moonsworth.lunar.genesis.ROHCCHIHOCOIOROCCRORCRRCIRHROH.loadClass(Unknown Source)
+	... 7 more
+
+[10:36:09.095][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[11:19:32.173][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[13:16:36.047][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[15:00:55.279][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[20:08:17.205][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[20:26:40.603][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[20:43:14.657][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[21:41:09.687][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[23:22:35.250][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[23:24:31.946][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[00:37:09.551][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[01:06:49.356][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[01:38:14.435][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[13:35:09.376][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[13:47:31.246][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[13:54:44.907][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[13:56:12.364][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[14:09:30.410][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[01:20:36.524][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[01:33:34.711][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[01:36:44.335][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[01:47:37.485][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[00:04:14.765][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[08:50:52.562][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[21:27:59.947][INFO ] ==== Lion client log session started (primary=C:\Users\trish\OneDrive\Desktop\save mc\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[21:29:42.851][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[23:32:46.738][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[23:41:38.822][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[23:52:02.685][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[00:01:41.899][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[00:12:27.190][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[00:50:30.353][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[21:18:58.658][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[22:34:09.994][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[00:08:26.202][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[17:21:03.576][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[17:21:06.686][ERROR] LionClient bootstrap failed
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at lion.client.Agent.start(Agent.java:113)
+Caused by: java.lang.RuntimeException: No OpenGL context found in the current thread.
+	at org.lwjgl.opengl.GLContext.getCapabilities(GLContext.java:124)
+	at org.lwjgl.opengl.GL11.glGetFloat(GL11.java:1355)
+	at net.minecraft.client.renderer.GlStateManager.func_179111_a(GlStateManager.java:595)
+	at net.minecraft.client.renderer.culling.ClippingHelperImpl.func_78560_b(SourceFile:72)
+	at net.minecraft.client.renderer.culling.ClippingHelperImpl.func_78558_a(SourceFile:36)
+	at net.minecraft.client.renderer.culling.Frustum.<init>(Frustum.java:14)
+	at com.lionclient.feature.module.impl.PlayerEspModule.<init>(PlayerEspModule.java:27)
+	at com.lionclient.feature.module.ModuleManager.<init>(ModuleManager.java:99)
+	at com.lionclient.LionClient.<init>(LionClient.java:33)
+	... 5 more
+
+[19:57:31.580][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[19:57:34.964][ERROR] LionClient bootstrap failed
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at lion.client.Agent.start(Agent.java:113)
+Caused by: java.lang.RuntimeException: No OpenGL context found in the current thread.
+	at org.lwjgl.opengl.GLContext.getCapabilities(GLContext.java:124)
+	at org.lwjgl.opengl.GL11.glGetFloat(GL11.java:1355)
+	at net.minecraft.client.renderer.GlStateManager.func_179111_a(GlStateManager.java:595)
+	at net.minecraft.client.renderer.culling.ClippingHelperImpl.func_78560_b(SourceFile:72)
+	at net.minecraft.client.renderer.culling.ClippingHelperImpl.func_78558_a(SourceFile:36)
+	at net.minecraft.client.renderer.culling.Frustum.<init>(Frustum.java:14)
+	at com.lionclient.feature.module.impl.PlayerEspModule.<init>(PlayerEspModule.java:27)
+	at com.lionclient.feature.module.ModuleManager.<init>(ModuleManager.java:99)
+	at com.lionclient.LionClient.<init>(LionClient.java:33)
+	... 5 more
+
+[20:03:12.044][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[20:03:15.203][ERROR] LionClient bootstrap failed
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at lion.client.Agent.start(Agent.java:113)
+Caused by: java.lang.RuntimeException: No OpenGL context found in the current thread.
+	at org.lwjgl.opengl.GLContext.getCapabilities(GLContext.java:124)
+	at org.lwjgl.opengl.GL11.glGetFloat(GL11.java:1355)
+	at net.minecraft.client.renderer.GlStateManager.func_179111_a(GlStateManager.java:595)
+	at net.minecraft.client.renderer.culling.ClippingHelperImpl.func_78560_b(SourceFile:72)
+	at net.minecraft.client.renderer.culling.ClippingHelperImpl.func_78558_a(SourceFile:36)
+	at net.minecraft.client.renderer.culling.Frustum.<init>(Frustum.java:14)
+	at com.lionclient.feature.module.impl.ChamsModule.<init>(ChamsModule.java:21)
+	at com.lionclient.feature.module.ModuleManager.<init>(ModuleManager.java:100)
+	at com.lionclient.LionClient.<init>(LionClient.java:33)
+	... 5 more
+
+[11:36:55.569][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[11:48:36.888][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[13:11:43.213][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[13:46:01.876][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[14:04:30.694][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[14:21:05.430][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[14:21:14.118][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[14:39:59.098][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[16:02:15.377][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[16:18:51.854][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[21:38:52.986][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[22:30:40.402][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[22:38:42.037][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[22:52:53.503][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[00:25:40.757][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[00:46:44.579][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[00:56:21.155][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[19:40:41.768][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[19:53:01.662][INFO ] ==== Lion client log session started (primary=D:\clientmake\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\trish\AppData\Local\Temp\lion-client.log) ====
+[19:53:02.439][ERROR] LionClient bootstrap failed
+java.lang.NoClassDefFoundError: net/minecraftforge/fml/common/network/FMLNetworkEvent$ClientDisconnectionFromServerEvent
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.privateGetMethodRecursive(Class.java:3048)
+	at java.lang.Class.getMethod0(Class.java:3018)
+	at java.lang.Class.getMethod(Class.java:1784)
+	at lion.client.Agent.start(Agent.java:114)
+Caused by: java.lang.ClassNotFoundException: net.minecraftforge.fml.common.network.FMLNetworkEvent$ClientDisconnectionFromServerEvent
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 6 more
+
+[17:33:28.777][INFO ] ==== Lion client log session started (primary=C:\Users\shaur\Desktop\Github Repositories\Furyclient\LionInjectable-1.0.5\dist\client.log fallback=C:\Users\shaur\AppData\Local\Temp\lion-client.log) ====
+[17:33:31.261][ERROR] LionClient bootstrap failed
+java.lang.NoClassDefFoundError: axu
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Unknown Source)
+	at lion.client.Agent.start(Agent.java:112)
+
